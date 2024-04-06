@@ -1,0 +1,43 @@
+baseURL: "delta456.github.io"
+title: Swastik Baranwal
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  profileMode:
+    enabled: true
+    title: "Swastik Baranwal" # optional default will be site title
+    subtitle: "Open Source Developer"
+    imageUrl: "https://avatars.githubusercontent.com/u/28479139?v=4" # optional
+    imageTitle: "Swastik Baranwal" # optional
+    imageWidth: 420 # custom size
+    imageHeight: 400 # custom size
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/delta456"
+    - name: "Twitter"
+      url: "https://twitter.com/Delta2315"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/swastik-baranwal/"
+    - name: "Dev"
+      url: "https://dev.to/delta456"
+    - name: "CV"
+      url: "https://drive.google.com/file/d/1g1iapreFZ3_fHvokXMDOyDxwpgiussE-/view?usp=sharing"
+    - name: "Email"
+      url: "mailto:swstkbaranwal@gmail.com"
+
+menu:
+  
+
