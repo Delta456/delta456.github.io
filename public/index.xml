@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Swastik Baranwal</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Swastik Baranwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>Hey 👋 I am an open-source developer 🌏 who also:
 Develops the The V Programming Language as one of the core developers 🧑‍🏭
 Loves compilers, terminal, devtools, backend and low level programming 🪛
@@ -24,9 +24,9 @@ Speaks on several deep tech talks 🎤</description>
     </item>
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>//localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>//localhost:1313/experience/</guid>
       <description>Effective·AF Duration : August 2023 – October 2023
 Occupation: Software Engineer Intern
 Location: California, United States · Remote
@@ -35,19 +35,19 @@ Occupation: Core Developer - Part Time</description>
     </item>
     <item>
       <title>Open Source</title>
-      <link>http://localhost:1313/open-source/</link>
+      <link>//localhost:1313/open-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/open-source/</guid>
+      <guid>//localhost:1313/open-source/</guid>
       <description>Contributing to Open Source 🌏 since mid 2019.
 The V Programming Language My first open source organization on which I started to contribute to and done a lot of significant things there. Check out my commits and PRs done by me there!
 Highlights Fixed several checker, parser, scanner, and code generation-related issues. Implemented features like operator overloading, syntax highlighting for v doc, match branch range expressions with constants, non-string map keys, etc.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>//localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description>I have very few good personal projects which I can showcase, while rest of them have been made for learning and research purposes. Look at my open source contributions to see more of my work.
+      <guid>//localhost:1313/projects/</guid>
+      <description>I spend most of my OSS coding time contributing to several big open-source projects, see here, but I also wrote and maintain a few projects of my own that I&amp;rsquo;m proud of 😄
 Box CLI Maker Box CLI Maker is a Highly Customized Terminal Box Maker.
 Features Make a Terminal Box in 8️⃣ inbuilt different styles 16 Inbuilt Colors and True Color Support 🎨 Custom Title Positions 📏 Make your Terminal Box style 📦 Support for ANSI, Tabbed, Multi-line and Line Wrapping boxes 📑 Align the text according to your needs 📐 Unicode, Emoji and Windows Console Support 😋 Highlights 400+ Stars on GitHub Used in Kubernetes minikube Featured on GoLang Weekly twice (issue#340 and issue#435) Featured on GitHub Radar November 2022 Featured on GitHub India CLI Badges CLI Badges generate badges for your CLI with Deno</description>
     </item>

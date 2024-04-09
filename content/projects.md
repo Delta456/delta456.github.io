@@ -4,7 +4,7 @@ title: Projects
 url: /projects
 ---
 
-I have very few **good** personal projects which I can showcase, while rest of them have been made for _learning_ and _research_ purposes. Look at my [open source contributions](/open-source) to see more of my work.
+I spend _most_ of my OSS coding time contributing to _several_ big open-source projects, see [here]((/open-source)), but I also wrote and maintain a few projects of my own that I'm proud of 😄
 
 ### Box CLI Maker
 
