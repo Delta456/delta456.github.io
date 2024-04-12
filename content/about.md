@@ -23,7 +23,7 @@ Hey 👋 I am an open-source developer 🌏 who also:
 
 - Writes on [Dev.to](https://dev.to/) ✍️
 
-- Speaks on several deep tech talks 🎤
+- Speaks on several in-depth tech talks 🎤
 
 I also contribute to several open-source programs in my spare time which I find interesting and unique.
 

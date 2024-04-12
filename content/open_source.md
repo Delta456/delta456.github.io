@@ -49,7 +49,7 @@ fn main() {
 }
 ```
 
-Implemented in PRs [#7737](https://github.com/vlang/v/pull/7737), [#774](https://github.com/vlang/v/pull/7774), [8030](https://github.com/vlang/v/pull/8030), [8067](https://github.com/vlang/v/pull/8067), [#8086](https://github.com/vlang/v/pull/8086), [#9529](https://github.com/vlang/v/pull/9529) and [#9529](https://github.com/vlang/v/pull/9529)
+Implemented in PRs [#7737](https://github.com/vlang/v/pull/7737), [#774](https://github.com/vlang/v/pull/7774), [8030](https://github.com/vlang/v/pull/8030), [8067](https://github.com/vlang/v/pull/8067), [#8086](https://github.com/vlang/v/pull/8086), [#9529](https://github.com/vlang/v/pull/9529) and [#9529](https://github.com/vlang/v/pull/9529) and more
 
 #### Match with Const Expr
 
