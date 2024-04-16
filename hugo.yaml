@@ -37,6 +37,8 @@ params:
       url: "https://drive.google.com/file/d/1g1iapreFZ3_fHvokXMDOyDxwpgiussE-/view?usp=sharing"
     - name: "Email"
       url: "mailto:swstkbaranwal@gmail.com"
+    - name: "BuyMeaCoffee"
+      url: "https://buymeacoffee.com/swastikbaranwal"
 
 menu:
   
