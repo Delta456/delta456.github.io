@@ -10,7 +10,7 @@ url: /experience
 **Occupation**: Core Developer - Part Time  
 **Location**: Remote
 
-- Working as a paid Open Source Contributor to develop The V Programming Language.
+- Working as a paid part-time open-source developer for The V Programming Language.
 - Fixed several checker, parser, scanner, and code generation-related issues.
 - Implemented features like **operator overloading**, **syntax highlighting for v doc**, **match branch range expressions with constants**, **non-string map keys**, etc.
 - Documented and developed _several_ internal libraries.

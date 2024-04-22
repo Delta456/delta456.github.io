@@ -8,7 +8,7 @@ Contributing to Open Source 🌏 since mid 2019.
 
 ### [The V Programming Language](https://vlang.io/)
 
-My first open source organization on which I started to contribute to and done a lot of significant things there. Check out my [commits](https://github.com/vlang/v/commits?author=Delta456) and [PRs](https://github.com/vlang/v/pulls/Delta456) done by me there!
+My first open-source organization on which I started to contribute to and done a lot of significant things there. Check out my [commits](https://github.com/vlang/v/commits?author=Delta456) and [PRs](https://github.com/vlang/v/pulls/Delta456) done by me there!
 
 ### Highlights
 
@@ -127,4 +127,4 @@ Encore is the Backend Development Platform purpose-built to help you create even
 - Worked on issue[#924](https://github.com/encoredev/encore/issues/924) in which optional `?` wasn't added.
 - Fixed in PR [#990](https://github.com/encoredev/encore/pull/990)
 
-*PS*: To see more, check the [GitHub account](https://github.com/delta456)!
+_PS_: To see more of my open-source work, check the [GitHub account](https://github.com/delta456)!
