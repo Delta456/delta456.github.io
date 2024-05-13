@@ -1,0 +1,63 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .imageUrl).IsAbs }}
+            {{- $img = resources.Get .imageUrl }}
+        {{- end }}
+        {{- if $img }}
+            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+            {{- if hugo.IsExtended -}}
+                {{- $processableFormats = $processableFormats | append "webp" -}}
+            {{- end -}}
+            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                {{- else if .imageHeight }}
+                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                {{ else if .imageWidth }}
+                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                {{ else }}
+                    {{- $img = $img.Resize "150x150" }}
+                {{- end }}
+            {{- end }}
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- else }}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        {{- partial "social_icons.html" -}}
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">
+                    {{ .name }}
+                    {{- if (findRE "://" .url) }}&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                    {{- end }}
+                </span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+        <div style=margin-top:120px>
+            <a href=https://ctp-webr.ing/delta456/previous><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="30" height="30" viewBox="0 0 256 256" class="iconify iconify--ph"><path fill="currentcolor" d="M205.66 202.34a8 8 0 01-11.32 11.32l-80-80a8 8 0 010-11.32l80-80a8 8 0 0111.32 11.32L131.31 128zM51.31 128l74.35-74.34a8 8 0 00-11.32-11.32l-80 80a8 8 0 000 11.32l80 80a8 8 0 0011.32-11.32z"/></svg></a>
+            <a href=https://ctp-webr.ing/ text-align=center><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="30" height="30" viewBox="0 0 256 256" class="iconify iconify--ph"><path fill="currentcolor" d="M128 24a104 104 0 10104 104A104.11 104.11.0 00128 24m0 192a88 88 0 1188-88 88.1 88.1.0 01-88 88m16-40a8 8 0 01-8 8 16 16 0 01-16-16v-40a8 8 0 010-16 16 16 0 0116 16v40a8 8 0 018 8m-32-92a12 12 0 1112 12 12 12 0 01-12-12"/></svg></a>
+            <a href=https://ctp-webr.ing/delta456/next><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="30" height="30" viewBox="0 0 256 256" class="iconify iconify--ph"><path fill="currentcolor" d="m141.66 133.66-80 80a8 8 0 01-11.32-11.32L124.69 128 50.34 53.66a8 8 0 0111.32-11.32l80 80a8 8 0 010 11.32m80-11.32-80-80a8 8 0 00-11.32 11.32L204.69 128l-74.35 74.34a8 8 0 0011.32 11.32l80-80a8 8 0 000-11.32"/></svg></a>
+        </div>
+    </div>
+    {{- end}}
+</div>
