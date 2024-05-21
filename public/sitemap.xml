@@ -12,6 +12,8 @@
   </url><url>
     <loc>//localhost:1313/projects/</loc>
   </url><url>
+    <loc>//localhost:1313/sponsors/</loc>
+  </url><url>
     <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>

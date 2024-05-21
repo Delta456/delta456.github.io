@@ -50,5 +50,16 @@ Highlights Fixed several checker, parser, scanner, and code generation-related i
 Box CLI Maker Box CLI Maker is a Highly Customized Terminal Box Maker.
 Features Make a Terminal Box in 8️⃣ inbuilt different styles 16 Inbuilt Colors and True Color Support 🎨 Custom Title Positions 📏 Make your Terminal Box style 📦 Support for ANSI, Tabbed, Multi-line and Line Wrapping boxes 📑 Align the text according to your needs 📐 Unicode, Emoji and Windows Console Support 😋 Highlights 400+ Stars on GitHub Used in Kubernetes minikube Featured on GoLang Weekly twice (issue#340 and issue#435) Featured on GitHub Radar November 2022 Featured on GitHub India CLI Badges CLI Badges generate badges for your CLI with Deno</description>
     </item>
+    <item>
+      <title>Sponsors</title>
+      <link>//localhost:1313/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/sponsors/</guid>
+      <description>I try to contribute to open-source projects in my free time. I am also looking to work as a full time open-source developer in future.
+To see my open-source work check here.
+A small amount would help me to do more!
+Donations If you are interested to sponsor feel free to sponsor via:
+GitHub Sponsors ❤️ Buy Me a Coffee ☕ Sponsors Very awesome people who are supporting my open-source work 🥳</description>
+    </item>
   </channel>
 </rss>
