@@ -61,5 +61,13 @@ A small amount would help me to do more!
 Donations If you are interested to sponsor feel free to sponsor via:
 GitHub Sponsors ❤️ Buy Me a Coffee ☕ Sponsors Very awesome people who are supporting my open-source work 🥳</description>
     </item>
+    <item>
+      <title>Uses</title>
+      <link>//localhost:1313/uses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/uses/</guid>
+      <description>Devices, tools and development stuff that I daily use.
+Hardware 💻 HP Victus Gaming Laptop with 16GB RAM and 1TB storage extended. ⌨️ Portronics Hydra 10 🖱️ HP Dual Mode Mouse 🎮 Redgear Pro Wireless Gamepad 📱 IQOO Neo 7 Pro ⌚ Noise Colorfit Ultra 3 🎧 JBL Tune 770NC Development Tools IDEs: VSCode, Goland, IDEA Ultimate, Helix Terminals: 🐱 Kitty, Gnome, 👻 Ghostty 🐳 Docker curl and many other CLI-level tools ImHex </description>
+    </item>
   </channel>
 </rss>

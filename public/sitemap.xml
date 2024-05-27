@@ -17,5 +17,7 @@
     <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/uses/</loc>
   </url>
 </urlset>

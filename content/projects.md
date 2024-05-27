@@ -58,3 +58,5 @@ I spend _most_ of my OSS coding time contributing to _several_ big open-source p
 - Made for learning purposes and ported from a React project.
 - Used several third-party components for the pop-up and color picker.
 - Hosted on [Vercel](https://svelte-color-generator-kappa.vercel.app/)
+
+Check out all of my projects [here](https://github.com/Delta456?tab=repositories)!
