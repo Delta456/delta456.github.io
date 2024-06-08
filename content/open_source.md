@@ -89,10 +89,17 @@ Implemented [Copy + Paste command](https://github.com/charmbracelet/vhs/pull/376
 
 ![gif](/images/clipboard.gif)
 
+### [huh](https://github.com/charmbracelet/huh)
+
+A simple, powerful library for building interactive forms and prompts in the terminal.
+
+- Implemented `Form.WithTimeout(duration)` in [#276](https://github.com/charmbracelet/huh/pull/276) which cancels the form in the given duration and closes [#166](https://github.com/charmbracelet/huh/issues/166).
+- Implemented `Form.WithInput(reader)` in [#271](https://github.com/charmbracelet/huh/pull/271) which set `io.Reader` to the input form and closes [#270](https://github.com/charmbracelet/huh/issues/270)
+
 ### [Nixpkgs](https://github.com/NixOS/nixpkgs)
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) is a collection of over
-80,000 software packages that can be installed with the
+100,000 software packages that can be installed with the
 [Nix](https://nixos.org/nix/) package manager. It also implements
 [NixOS](https://nixos.org/nixos/), a purely-functional Linux distribution.
 
