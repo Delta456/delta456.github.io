@@ -25,6 +25,12 @@ Hey 👋 I am an open-source developer 🌏 who also:
 
 - Speaks on several in-depth tech talks 🎤
 
-I also contribute to several open-source programs in my spare time which I find interesting and unique.
+<div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+    <iframe frameborder="0" style="width: 80%; height: 80%;"
+        src="https://www.youtube.com/embed/gs8FFp0rAbk">
+    </iframe>
+</div>
+
+Learn more about me from this podcast 🎙
 
 Feel free to check my [experience](/experience), [projects](/projects) and [open source contributions](/open-source)!
