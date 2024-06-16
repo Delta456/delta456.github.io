@@ -13,7 +13,7 @@ My first open-source organization on which I started to contribute to and done a
 ### Highlights
 
 - Fixed several _checker_, _parser_, _scanner_, and _code generation-related_ issues.
-- Implemented features like `operator overloading`, `syntax highlighting for v doc`, `match branch range expressions with constants`, `non-string map keys`, etc.
+- Implemented features like `operator overloading`, `syntax highlighting for v doc`, `match branch range expressions with constants`, `non-string map keys`, support for `&&=` and `||=` operators for boolean, etc.
 - Documented and developed several standard library features.
 
 #### Limited Operator Overloading
@@ -72,6 +72,20 @@ println(num)
 ```
 
 Implemented in PRs [#16526](https://github.com/vlang/v/pull/16526) and [#19572](https://github.com/vlang/v/pull/19572)
+
+#### `&&=` and `||=` operators
+
+`&&=` is shorthand for `flag = flag && flag2`, same for `||=`
+
+```v
+mut success := true
+for mesh in meshes {
+    success &&= renderer.draw_skinner_mesh(mesh, app.skinning_m, transform)
+    // Same as success = succes && renderer.draw_skinner_mesh(mesh, app.skinning_m, transform)
+}
+```
+
+Implemented in PRs [#21678](https://github.com/vlang/v/pull/21678) and in [#21684](https://github.com/vlang/v/pull/21684)
 
 ### [Charm](https://charm.sh/)
 

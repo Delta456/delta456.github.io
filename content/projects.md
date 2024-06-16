@@ -24,7 +24,7 @@ I spend _most_ of my OSS coding time contributing to _several_ big open-source p
 
 #### Highlights
 
-- 400+ Stars on GitHub
+- 500+ Stars on GitHub
 - Used in Kubernetes [minikube](https://github.com/kubernetes/minikube)
 - Featured on GoLang Weekly _twice_ ([issue#340](https://golangweekly.com/issues/340) and [issue#435](https://golangweekly.com/issues/435))
 - Featured on [GitHub Radar November 2022](https://github.blog/2022-12-16-release-radar-nov-2022/)

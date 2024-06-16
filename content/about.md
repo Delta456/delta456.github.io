@@ -31,6 +31,6 @@ Hey 👋 I am an open-source developer 🌏 who also:
     </iframe>
 </div>
 
-Learn more about me from this podcast 🎙
+Learn more about me from this [podcast](https://www.youtube.com/live/gs8FFp0rAbk) 🎙
 
 Feel free to check my [experience](/experience), [projects](/projects) and [open source contributions](/open-source)!
